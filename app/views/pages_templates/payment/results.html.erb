@@ -1,0 +1,12 @@
+<h1>Payment Results</h1>
+
+<div>
+  <span> APR </span><br>
+  &emsp;&emsp;<%=@apr.to_fs(:percentage, {:precision=>4})%><br>
+  <span> Number of years </span><br>
+  &emsp;&emsp;<%=@years%><br>
+  <span> Principal </span><br>
+  &emsp;&emsp;$<%=@principal%><br>
+  <span> Result </span><br>
+  &emsp;&emsp;<%=@result%><br>
+</div>
